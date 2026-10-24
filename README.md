@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/kam%E2%80%99ron-washington-2003a93a0/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" /></a>
+  <a href="https://www.linkedin.com/in/kam-ron-washington-2003a93a0/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" /></a>
   <a href="https://github.com/kamronw23?tab=repositories"><img alt="GitHub: All Repos" src="https://img.shields.io/badge/GitHub-All%20Repos-181717?style=flat-square&logo=github&logoColor=white" /></a>
 </p>
 
@@ -119,6 +119,10 @@ Data integrity and availability are two thirds of the CIA triad, so these projec
 - [ ] Build a home SIEM lab (Splunk Free / Elastic / Microsoft Sentinel) and replay attacks against my detection rules
 - [ ] Complete SOC-focused hands-on paths (Hack The Box, TryHackMe SOC Level 1, Blue Team Labs Online)
 - [ ] Next certification: CompTIA CySA+
+
+---
+
+<p align="center"><i>Open to SOC Analyst, Security Analyst, and Digital Forensics roles. Let's connect on <a href="https://www.linkedin.com/in/kam-ron-washington-2003a93a0/">LinkedIn</a>.</i></p>
 
 ---
 

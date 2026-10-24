@@ -125,5 +125,3 @@ Data integrity and availability are two thirds of the CIA triad, so these projec
 <p align="center"><i>Open to SOC Analyst, Security Analyst, and Digital Forensics roles. Let's connect on <a href="https://www.linkedin.com/in/kam-ron-washington-2003a93a0/">LinkedIn</a>.</i></p>
 
 ---
-
-<p align="center"><i>Open to SOC Analyst, Security Analyst, and Digital Forensics roles. Let's connect on <a href="https://www.linkedin.com/in/kam%E2%80%99ron-washington-2003a93a0/">LinkedIn</a>.</i></p>

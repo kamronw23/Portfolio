@@ -10,7 +10,7 @@
 
 <p align="center">
   <a href="https://www.linkedin.com/in/kam%E2%80%99ron-washington-2003a93a0/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" /></a>
-  <a href="https://github.com/kamronw23/security-scripts"><img alt="GitHub: Security Scripts" src="https://img.shields.io/badge/GitHub-Security%20Scripts-181717?style=flat-square&logo=github&logoColor=white" /></a>
+  <a href="https://github.com/kamronw23?tab=repositories"><img alt="GitHub: All Repos" src="https://img.shields.io/badge/GitHub-All%20Repos-181717?style=flat-square&logo=github&logoColor=white" /></a>
 </p>
 
 ---
@@ -63,6 +63,18 @@ Small, well-documented defensive tools I wrote to automate SOC tasks. Each one c
 
 ---
 
+## 📦 More Security Repos
+
+| Repo | What's inside |
+|---|---|
+| [**siem-detection-rules**](https://github.com/kamronw23/siem-detection-rules) | 7 detections in Sigma + Splunk SPL (brute force, encoded PowerShell, log clearing, admin group changes, scheduled-task persistence), all mapped to MITRE ATT&CK and checked in CI |
+| [**linux-hardening-audit**](https://github.com/kamronw23/linux-hardening-audit) | Read-only Bash audit of SSH, users, firewall, exposed services, permissions, logging, and updates, with a fix for every finding |
+| [**soc-playbooks**](https://github.com/kamronw23/soc-playbooks) | NIST 800-61-style IR playbooks for phishing, brute force, and malware, plus an alert triage checklist and incident report template |
+
+**How they connect:** a detection fires (*siem-detection-rules*) → I triage it with a playbook (*soc-playbooks*) → I investigate with my tools (*security-scripts*) → I harden the host (*linux-hardening-audit*).
+
+---
+
 ## 🎖️ Certifications & Education
 
 | Credential | Issuer |
@@ -70,7 +82,7 @@ Small, well-documented defensive tools I wrote to automate SOC tasks. Each one c
 | [CompTIA Security+](https://www.comptia.org/en-us/certifications/security/) | CompTIA |
 | [CompTIA Network+](https://www.comptia.org/en-us/certifications/network/) | CompTIA |
 | [CompTIA Linux+](https://www.comptia.org/en-us/certifications/linux/) | CompTIA |
-| Associate's Degree, *<!-- TODO: field of study -->* | *<!-- TODO: school name -->* |
+| Associate's Degree (2026) | Ferris State University |
 
 ---
 
@@ -89,7 +101,6 @@ Data integrity and availability are two thirds of the CIA triad, so these projec
 
 - [ ] Build a home SIEM lab (Splunk Free / Elastic / Microsoft Sentinel) and write detection rules
 - [ ] Complete SOC-focused hands-on platforms (TryHackMe SOC Level 1, Blue Team Labs Online, LetsDefend)
-- [ ] Map each script in `security-scripts` to MITRE ATT&CK techniques
 - [ ] Next certification: CompTIA CySA+
 
 ---

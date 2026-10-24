@@ -1,10 +1,10 @@
 <h1 align="center">Kam'ron Washington</h1>
-<h3 align="center">Aspiring SOC Analyst · Blue Team · Network & Linux Security</h3>
+<h3 align="center">Aspiring SOC Analyst · Digital Forensics · Blue Team</h3>
 
 <p align="center">
   <img alt="CompTIA Security+" src="https://img.shields.io/badge/CompTIA-Security%2B-C8202F?style=for-the-badge" />
   <img alt="CompTIA Network+" src="https://img.shields.io/badge/CompTIA-Network%2B-C8202F?style=for-the-badge" />
-  <img alt="CompTIA Linux+" src="https://img.shields.io/badge/CompTIA-Linux%2B-C8202F?style=for-the-badge" />
+  <img alt="Python Essentials" src="https://img.shields.io/badge/Python-Essentials-3776AB?style=for-the-badge&logo=python&logoColor=white" />
   <img alt="Grand Rapids, MI" src="https://img.shields.io/badge/Location-Grand%20Rapids%2C%20MI-1f6feb?style=for-the-badge" />
 </p>
 
@@ -17,9 +17,20 @@
 
 ## 🛡️ About Me
 
-I'm a recent graduate looking to start my career as a **SOC Analyst**. I hold CompTIA **Security+**, **Network+**, and **Linux+**, and I learn best hands-on: I build virtual labs, break things on purpose, and write scripts that automate the tasks a Tier 1 analyst does every day, like triaging logs, checking file integrity, and spotting brute-force attempts.
+I'm an **Information Security & Intelligence** student at **Ferris State University** with **two years of hands-on IT experience** in enterprise healthcare and education, and I'm working toward a career as a **SOC Analyst**. I hold CompTIA **Security+** and **Network+**, and I build my skills hands-on: Hack The Box challenges, a virtual sandbox lab, full Windows disk forensic examinations, and security tools I write in Python, PowerShell, Bash, and SQL.
 
-**Currently focused on:** log analysis and alert triage · SIEM fundamentals · Linux and Windows hardening · Python and PowerShell for security automation
+**Currently focused on:** alert triage and log analysis · detection engineering · digital forensics · endpoint and network security
+
+---
+
+## 💼 Experience
+
+| Role | Organization | Dates |
+|---|---|---|
+| **Device Deployment Technician** | MCPc, supporting Corewell Health (enterprise healthcare) | Aug 2026 – Present |
+| **Tech Assistant / Help Desk Technician** | Godfrey-Lee Public Schools | Aug 2024 – Jul 2025 |
+
+Imaging and deploying endpoints across clinical environments, supporting medical technology (Altus carts, Zebra printers, iPhones), resolving account lockouts and password resets, and troubleshooting Wi-Fi and network connectivity. My [endpoint-admin-toolkit](https://github.com/kamronw23/endpoint-admin-toolkit) and [network-asset-discovery](https://github.com/kamronw23/network-asset-discovery) repos come straight from that work.
 
 ---
 
@@ -27,16 +38,49 @@ I'm a recent graduate looking to start my career as a **SOC Analyst**. I hold Co
 
 | Area | Tools & Concepts |
 |---|---|
-| **Security Operations** | Log analysis, alert triage, incident response basics, IOC investigation, MITRE ATT&CK |
-| **Networking** | TCP/IP, subnetting, VLANs, firewalls, DNS/DHCP, packet analysis (Wireshark), Nmap |
-| **Systems** | Linux (CLI, permissions, services, auth logs), Windows (Event Viewer, PowerShell, WSL/Bash) |
-| **Virtualization / Labs** | VirtualBox / VMware, Kali Linux, isolated virtual networks |
-| **Scripting** | Python, Bash, PowerShell |
-| **Data** | SQL, database design and backup/recovery, Tableau |
+| **Security Operations** | Log analysis, alert triage, incident response (NIST 800-61), IOC investigation, MITRE ATT&CK, Sigma, Splunk SPL |
+| **Digital Forensics** | Magnet AXIOM, Forensic Explorer, FTK Imager, E01 imaging and hash verification, Windows registry analysis (SAM, SYSTEM, SOFTWARE, NTUSER.DAT), USB device attribution, web history and timeline reconstruction, file carving |
+| **Networking** | TCP/IP, subnetting, DNS/DHCP, Wi-Fi troubleshooting, network device discovery, firewalls, Wireshark, Nmap |
+| **Systems & Endpoints** | Windows (Event Viewer, PowerShell, BitLocker, Defender), Linux (CLI, auth logs, hardening), device imaging, hardware lifecycle refresh |
+| **Programming** | Python, SQL, PowerShell, Bash |
+| **Labs & Practice** | Hack The Box, virtual sandbox / hacklab (VirtualBox, Kali Linux) |
 
 ---
 
-## 🔐 Cybersecurity & Networking Projects
+## 🔬 Digital Forensics
+
+| Repo | What's inside |
+|---|---|
+| [**forensic-case-study-mantooth**](https://github.com/kamronw23/forensic-case-study-mantooth) | Full Windows disk examination of an E01 image: hash verification, SAM/SYSTEM/SOFTWARE/NTUSER.DAT analysis, 15 USB devices attributed, web activity timeline, media and document review, evidence-based conclusion |
+| [**dfir-toolkit**](https://github.com/kamronw23/dfir-toolkit) | Python tools for evidence hashing with chain of custody, file signature analysis, USBSTOR parsing, and super-timeline building |
+| [**dfir-cheatsheets**](https://github.com/kamronw23/dfir-cheatsheets) | Quick references: Windows registry artifacts, Windows Event IDs, forensic process and evidence handling, Linux logs and live triage |
+
+---
+
+## 🚨 Security Operations & Detection
+
+| Repo | What's inside |
+|---|---|
+| [**security-scripts**](https://github.com/kamronw23/security-scripts) | 7 defensive tools: SSH and Windows brute-force detection, phishing email triage, IOC extraction, file integrity monitoring, password audit, lab port scanner |
+| [**siem-detection-rules**](https://github.com/kamronw23/siem-detection-rules) | 7 detections in Sigma + Splunk SPL, mapped to MITRE ATT&CK and validated in CI |
+| [**sql-threat-hunting**](https://github.com/kamronw23/sql-threat-hunting) | Parses SSH and web logs into SQLite, then 8 SQL hunts for brute force, spraying, SQL injection, web shells, and post-compromise activity |
+| [**soc-playbooks**](https://github.com/kamronw23/soc-playbooks) | Incident response playbooks (phishing, brute force, malware), an alert triage checklist, and an incident report template |
+
+---
+
+## 🖥️ Endpoint & Network Security
+
+| Repo | What's inside |
+|---|---|
+| [**endpoint-admin-toolkit**](https://github.com/kamronw23/endpoint-admin-toolkit) | PowerShell: device inventory (serial, BitLocker, TPM), endpoint security baseline, layered network troubleshooter, account lockout investigator |
+| [**network-asset-discovery**](https://github.com/kamronw23/network-asset-discovery) | Python: ping/ARP discovery, MAC vendor lookup, device fingerprinting, and baseline diffing to catch rogue devices and ARP spoofing |
+| [**linux-hardening-audit**](https://github.com/kamronw23/linux-hardening-audit) | Read-only Bash audit of SSH, users, firewall, exposed services, permissions, logging, and updates, with a fix for every finding |
+
+**How it all connects:** a detection fires (*siem-detection-rules*, *sql-threat-hunting*) → I triage it with a playbook (*soc-playbooks*) → I investigate with my tools (*security-scripts*, *dfir-toolkit*) → I harden and verify endpoints (*endpoint-admin-toolkit*, *linux-hardening-audit*).
+
+---
+
+## 🔐 Labs & Projects
 
 | Project | What I did | Security relevance |
 |---|---|---|
@@ -47,42 +91,15 @@ I'm a recent graduate looking to start my career as a **SOC Analyst**. I hold Co
 
 ---
 
-## ⚙️ Security Scripts → [`security-scripts`](https://github.com/kamronw23/security-scripts)
-
-Small, well-documented defensive tools I wrote to automate SOC tasks. Each one comes with sample data so you can run it in seconds.
-
-| Script | Purpose |
-|---|---|
-| `ssh_bruteforce_detector.py` | Parses Linux `auth.log` and flags IPs with repeated failed SSH logins |
-| `Get-FailedLogons.ps1` | Pulls Windows Event ID 4625 (failed logon) and summarizes by account and source IP |
-| `file_integrity_monitor.py` | Builds a SHA-256 baseline of a folder and reports added, removed, or modified files |
-| `ioc_extractor.py` | Extracts IPs, domains, URLs, emails, and hashes from text, logs, or phishing emails |
-| `email_header_analyzer.py` | Reviews email headers for SPF/DKIM/DMARC results and spoofing red flags |
-| `password_audit.py` | Scores password strength and checks Have I Been Pwned via k-anonymity (never sends the password) |
-| `port_scanner.py` | Lightweight TCP connect scanner for auditing **my own** lab hosts |
-
----
-
-## 📦 More Security Repos
-
-| Repo | What's inside |
-|---|---|
-| [**siem-detection-rules**](https://github.com/kamronw23/siem-detection-rules) | 7 detections in Sigma + Splunk SPL (brute force, encoded PowerShell, log clearing, admin group changes, scheduled-task persistence), all mapped to MITRE ATT&CK and checked in CI |
-| [**linux-hardening-audit**](https://github.com/kamronw23/linux-hardening-audit) | Read-only Bash audit of SSH, users, firewall, exposed services, permissions, logging, and updates, with a fix for every finding |
-| [**soc-playbooks**](https://github.com/kamronw23/soc-playbooks) | NIST 800-61-style IR playbooks for phishing, brute force, and malware, plus an alert triage checklist and incident report template |
-
-**How they connect:** a detection fires (*siem-detection-rules*) → I triage it with a playbook (*soc-playbooks*) → I investigate with my tools (*security-scripts*) → I harden the host (*linux-hardening-audit*).
-
----
-
 ## 🎖️ Certifications & Education
 
-| Credential | Issuer |
-|---|---|
-| [CompTIA Security+](https://www.comptia.org/en-us/certifications/security/) | CompTIA |
-| [CompTIA Network+](https://www.comptia.org/en-us/certifications/network/) | CompTIA |
-| [CompTIA Linux+](https://www.comptia.org/en-us/certifications/linux/) | CompTIA |
-| Associate's Degree (2026) | Ferris State University |
+| Credential | Issuer | Year |
+|---|---|---|
+| [CompTIA Security+](https://www.comptia.org/en-us/certifications/security/) | CompTIA | 2026 |
+| [CompTIA Network+](https://www.comptia.org/en-us/certifications/network/) | CompTIA | 2026 |
+| Python Essentials | Edube.org (OpenEDG Python Institute) | 2026 |
+| **B.S., Information Security & Intelligence** | Ferris State University | Expected May 2028 |
+| **Associate Degree, Information Security & Intelligence** | Ferris State University | May 2026 |
 
 ---
 
@@ -99,10 +116,10 @@ Data integrity and availability are two thirds of the CIA triad, so these projec
 
 ## 🎯 What I'm Working Toward
 
-- [ ] Build a home SIEM lab (Splunk Free / Elastic / Microsoft Sentinel) and write detection rules
-- [ ] Complete SOC-focused hands-on platforms (TryHackMe SOC Level 1, Blue Team Labs Online, LetsDefend)
+- [ ] Build a home SIEM lab (Splunk Free / Elastic / Microsoft Sentinel) and replay attacks against my detection rules
+- [ ] Complete SOC-focused hands-on paths (Hack The Box, TryHackMe SOC Level 1, Blue Team Labs Online)
 - [ ] Next certification: CompTIA CySA+
 
 ---
 
-<p align="center"><i>Open to SOC Analyst, Security Analyst, and IT/Network roles. Let's connect on <a href="https://www.linkedin.com/in/kam%E2%80%99ron-washington-2003a93a0/">LinkedIn</a>.</i></p>
+<p align="center"><i>Open to SOC Analyst, Security Analyst, and Digital Forensics roles. Let's connect on <a href="https://www.linkedin.com/in/kam%E2%80%99ron-washington-2003a93a0/">LinkedIn</a>.</i></p>
